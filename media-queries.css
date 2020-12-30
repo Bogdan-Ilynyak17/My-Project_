@@ -1,0 +1,39 @@
+/* Смартфоны (портретный и альбомний режим) ----------- */
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+	body{
+		background: url(img/4.jpg) no-repeat;
+	}
+}
+
+/* Смартфоны (альбомный режим) ----------- */
+@media only screen
+and (min-width : 321px) {
+ body{
+ 	background: url(img/Живая-природа.jpg);
+ }
+}
+
+/* Смартфоны (портретный режим) ----------- */
+@media only screen
+and (max-width : 320px) {
+ body{
+ 	background: url(img/5.jpg) no-repeat;
+ }
+}
+
+/* Настольные компьютеры и ноутбуки ----------- */
+@media only screen
+and (min-width : 1224px) {
+body{
+	background: url(img/3.jpg) no-repeat;
+}
+}
+ 
+
+/* Большие экраны ----------- */
+@media only screen
+and (min-width : 1824px) {
+body{
+	background: url(img/3886x1824_px_landscape_mountain_nature_wingsuits-676604.jpg!d) ;
+}
+}
